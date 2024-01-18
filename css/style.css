@@ -1,0 +1,66 @@
+body{
+    color: dodgerblue;
+    background-color: rgb(139, 181, 182);
+    font-size: 14px;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+color: rgb(44, 129, 139);
+background-color: rgb(191, 239, 223);
+font-size: 20px;
+text-decoration: wavy;
+padding: 1em;
+}
+
+nav {
+    background-color: rgb(220, 245, 234);
+    padding: 0.5em;
+
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-menu li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+.top-menu a {
+    text-decoration: none;
+    color: dodgerblue;
+    font-weight: bold;
+}
+.top.menu a:hover {
+    color: rgb(0, 0, 0);
+}
+h2 {
+
+}
+
+p {
+
+}
+
+img{
+
+
+}
+
+section{
+
+}
+footer{
+    background-color: rgb(179, 234, 217);
+    color: rgb(37, 106, 70);
+    padding: 1em;
+}
+
+.h2spe{
+    background-color: blue;
+    color:rgb(242, 237, 237)
+}

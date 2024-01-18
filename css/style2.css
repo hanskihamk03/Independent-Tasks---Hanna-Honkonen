@@ -1,0 +1,41 @@
+body{
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    flex: 200px;
+    padding: 20px;
+    border: 1px solid #333;
+    background-color: bisque;
+    color:azure
+}
+
+.itemBig{
+    flex: 2;
+    padding: 20px;
+    border: 1px solid #333;
+    margin: 10px;
+}
+}
+header{
+    color:darkred;
+
+}
+nav{
+
+
+}
+main{
+
+}
+aside{
+
+}
+footer{
+
+}
