@@ -1,21 +1,28 @@
 body{
-    color: dodgerblue;
-    background-color: rgb(139, 181, 182);
-    font-size: 14px;
+    background-color:rgb(212, 190, 222);
+    font: 100;
     margin: auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 header {
-color: rgb(44, 129, 139);
-background-color: rgb(191, 239, 223);
-font-size: 20px;
+color:rgb(197, 192, 174);
+background-color:rgb(234, 228, 231);
+font-size: 25px;
 text-decoration: wavy;
-padding: 1em;
+padding: 0,5em;
+margin: 50px;
+}
+
+h1{
+    font-style: normal;
+    color: rgb(192, 101, 197);
+    margin: 30px;
 }
 
 nav {
-    background-color: rgb(220, 245, 234);
-    padding: 0.5em;
+    background-color: rgb(234, 228, 231);
+    color:rgb(192, 101, 197);
+    padding: 0.8em;
 
 }
 nav ul{
@@ -32,35 +39,104 @@ nav ul{
 
 .top-menu a {
     text-decoration: none;
-    color: dodgerblue;
     font-weight: bold;
+    
 }
 .top.menu a:hover {
-    color: rgb(0, 0, 0);
+    color: red
+
+}
+.top.menu a:visited{
+    color: red
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border:10px solid  rgb(192, 101, 197);
+    padding: 0px;
+    margin: 10px 0;
 }
 h2 {
+     background-color:rgb(234, 228, 231);
+     font-style: normal;
+     color: rgb(192, 101, 197);
+     margin: 10px;
+     padding: 5px;
 
 }
 
-p {
+.pteksti {
+    background-color:rgb(234, 228, 231);
+    font-style: normal;
+    color: rgb(192, 101, 197);
+    margin: 30px;
 
 }
-
-img{
-
-
+.h1toinen{
+        font-style: normal;
+        background-color: rgb(234, 228, 231);
+        color: rgb(192, 101, 197);
+        margin: 30px;
 }
 
-section{
 
-}
 footer{
-    background-color: rgb(179, 234, 217);
-    color: rgb(37, 106, 70);
-    padding: 1em;
+    background-color:black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.footer2{
+    background-color:rgb(234, 228, 231);
+    color:black;
+    padding:5px;
+
+}
+h3{
+    font-style: normal;
+    background-color: rgb(234, 228, 231);
+    color: rgb(192, 101, 197);
+    margin: 30px;
+    padding-left: 0cm;
+
 }
 
 .h2spe{
     background-color: blue;
     color:rgb(242, 237, 237)
+}
+#main-header {
+    background-color: #3498db;
+    text-align: center;
+    padding: 20px;
+}
+
+#main-header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+#main-header p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Content Article Styles */
+.content-article {
+    background-color: #ecf0f1;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content-article h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content-article p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
 }
