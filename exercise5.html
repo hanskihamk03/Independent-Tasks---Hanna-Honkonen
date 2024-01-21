@@ -5,61 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style2.css">
     <title>Exercise 5: HTML Layout</title>
-    <style>
-        body{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        header{
-            
-            background-color:lightyellow;
-            text-align: center;
-            width: 100%;
-            
-        }
-        footer{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    </style>
 </head>
-
-
 <body>
     <header>
-     <h1>Flex Blox Examples</h1>
+        <h1>Flex Blox Examples</h1>
     </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-    <main>
-     <h3>What is HTML?</h3>
-     <p>Hypertext Markup Language (HTML) is the standard markup language for documents that are designed to be displayed in a web browser. HTML is not a programming language. It is a markup language that tells
-    browser how to structure a web page. HTML is made up of sereis of elements such as a piece of text, a pragraph, list, table, links or forms.</p>
-     <h3>HTML Elements</h3>
-     <p>As in the above example, html document consists of a tree of elements and text. Each element starts with a tag and ends with a tag. Tags have to be nested such that they are completely within each other without
-    overlapping . As in the above example, html document consists of a tree of elements and text. Each element starts with a tag and ends with a tag. Tags have to be nested such that they are completely within each other
-    without overlapping .</p>
-     <h3>Block Level Elements</h3>
-     <p>Block-level elements form a visible block on a page. A block-level element appears on a new line following the content that precedes it. Any content that follows a block-level element also appears on a new line. Block-
-    level elements are usually structural elements on the page. For example, a block-level element might represent headings, paragraphs, lists, navigation menus, or footers. A block-level element wouldn't be nested inside an
-    inline element, but it might be nested inside another block-level element.</p>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="exercise1.html">Exercise 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="exercise2.html">Exercise 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="exercise4.html">Exercise 4</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="exercise5.html">Exercise 5<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+ <main>
+    <leftside>
+        <p>sidebar</p>
+        <p>sidebar</p>
+        <p>sidebar</p>
+        <p>sidebar</p>
+        <p>sidebar</p>   
+    </leftside>
 
-    </main>
 
-<aside>
-    <nav ul>
-     <li>sidebar</li>
-     <li>sidebar</li>
-     <li>sidebar</li>
-     <li>sidebar</li>
-     <li>sidebar</li>
+    <rightside class="bigBox">
+        <h3 >What is HTML?</h3>
+        <p>Hypertext Markup Language (HTML) is the standard markup language for documents that are designed to be displayed in a web browser. HTML is not a programming language. It is a markup language that tells
+            browser how to structure a web page. HTML is made up of series of elements such as a piece of text, a paragraph, list, table, links, or forms.</p>
 
-    </nav ul>
-    </aside>
+        <h3>HTML Elements</h3>
+        <p>As in the above example, HTML document consists of a tree of elements and text. Each element starts with a tag and ends with a tag. Tags have to be nested such that they are completely within each other without
+            overlapping. As in the above example, HTML document consists of a tree of elements and text. Each element starts with a tag and ends with a tag. Tags have to be nested such that they are completely within each other
+            without overlapping.</p>
 
-    <footer>
-<h1> Learning Flex @2022</h1>
-    </footer>
+        <h3>Block Level Elements</h3>
+        <p>Block-level elements form a visible block on a page. A block-level element appears on a new line following the content that precedes it. Any content that follows a block-level element also appears on a new line. Block-
+            level elements are usually structural elements on the page. For example, a block-level element might represent headings, paragraphs, lists, navigation menus, or footers. A block-level element wouldn't be nested inside an
+            inline element, but it might be nested inside another block-level element.</p>
+    </rightside>
+ </main>
+ <table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Column 1</th>
+            <th scope="col">Column 2</th>
+            <th scope="col">Column 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Data 4</td>
+            <td>Data 5</td>
+            <td>Data 6</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Data 7</td>
+            <td>Data 8</td>
+            <td>Data 9</td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td>Data 10</td>
+            <td>Data 11</td>
+            <td>Data 12</td>
+        </tr>
+        <tr>
+            <th scope="row">5</th>
+            <td>Data 13</td>
+            <td>Data 14</td>
+            <td>Data 15</td>
+        </tr>
+    </tbody>
+</table>
+ <form>
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+    </div>
+    <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+</main>
+ <footer>
+        <h1>Learning Flex @2022</h1>
+ </footer>
 </body>
 </html>
