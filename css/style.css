@@ -35,11 +35,13 @@ nav ul {
 .top-menu li {
     display: inline-block;
     margin-right: 20px;
+    color: #3e2f45;
 }
 
 .top-menu a {
     text-decoration: none;
     font-weight: bold;
+    color:#3e2f45
 }
 
 .top-menu a:hover {
@@ -106,7 +108,7 @@ h3 {
     color: rgb(242, 237, 237);
 }
 
-/* Main Header Styles */
+
 #main-header {
     background-color: rgb(234, 228, 231);
     text-align: center;
@@ -141,4 +143,13 @@ h3 {
     color: #3e2f45;
     font-size: 16px;
     line-height: 1.5;
+}
+.navbar.navbar-light.bg-light {
+    display: flex;
+    background-color:  #3e2f45;
+}
+
+.navbar.navbar-light.bg-light .navbar-nav .nav-link {
+    color:  #cdb6d8;
+    flex-direction: row
 }
